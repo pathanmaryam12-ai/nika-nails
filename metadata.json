@@ -1,0 +1,6 @@
+{
+  "name": "Nika Nails Miami",
+  "description": "Premium brand website for Oksana Nykolyak (Nika Nails), Miami's leading Russian and Ukrainian manicure authority, author, educator, and industry judge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
