@@ -8,6 +8,18 @@ export interface Service {
   category: 'manicure' | 'pedicure' | 'extensions' | 'combos' | 'men' | 'addons';
 }
 
+import heroOksana from './assets/images/hero_oksana_1783948105466.jpg';
+import bookCover from './assets/images/book_cover_1783948120977.jpg';
+import nailWork1 from './assets/images/nail_work_1_1783948136646.jpg';
+import nailWork2 from './assets/images/nail_work_2_1783948151123.jpg';
+import heroBomondCover from './assets/images/hero_bomond_cover_1783949696510.jpg';
+import oksanaAboutMe from './assets/images/oksana_about_me_1783949714460.jpg';
+import oksanaBusinessBook from './assets/images/oksana_business_book_1783949733428.jpg';
+import nailWorkPearlChrome from './assets/images/nail_work_pearl_chrome_1783949750854.jpg';
+import nailWorkVintageRings from './assets/images/nail_work_vintage_rings_1783949766379.jpg';
+import nailWorkPedicure from './assets/images/regenerated_image_1783950130933.jpg';
+import nailWorkMale from './assets/images/regenerated_image_1783950129306.jpg';
+
 export interface Credential {
   id: string;
   title: string;
@@ -16,17 +28,17 @@ export interface Credential {
 }
 
 export const IMAGES = {
-  heroOksana: "/src/assets/images/hero_oksana_1783948105466.jpg",
-  bookCover: "/src/assets/images/book_cover_1783948120977.jpg",
-  nailWork1: "/src/assets/images/nail_work_1_1783948136646.jpg",
-  nailWork2: "/src/assets/images/nail_work_2_1783948151123.jpg",
-  heroBomondCover: "/src/assets/images/hero_bomond_cover_1783949696510.jpg",
-  oksanaAboutMe: "/src/assets/images/oksana_about_me_1783949714460.jpg",
-  oksanaBusinessBook: "/src/assets/images/oksana_business_book_1783949733428.jpg",
-  nailWorkPearlChrome: "/src/assets/images/nail_work_pearl_chrome_1783949750854.jpg",
-  nailWorkVintageRings: "/src/assets/images/nail_work_vintage_rings_1783949766379.jpg",
-  nailWorkPedicure: "/src/assets/images/regenerated_image_1783950130933.jpg",
-  nailWorkMale: "/src/assets/images/regenerated_image_1783950129306.jpg",
+  heroOksana,
+  bookCover,
+  nailWork1,
+  nailWork2,
+  heroBomondCover,
+  oksanaAboutMe,
+  oksanaBusinessBook,
+  nailWorkPearlChrome,
+  nailWorkVintageRings,
+  nailWorkPedicure,
+  nailWorkMale,
 };
 
 export const CREDENTIALS: Credential[] = [
